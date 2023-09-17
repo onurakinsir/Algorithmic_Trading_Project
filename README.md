@@ -8,7 +8,7 @@
 #### w: https://onurakinsir.com
 
 ### Overview
-The model aims to implement a trading strategy using two simple moving averages (MA) though generating buy and sell signals in financial markets. The model is evaluated based on the Bitcoin Perpetual market, utilising minute-level data retrieved and trading executed through the Deribit Test API. First of all, I would like to kindly refer to the proposal of the model and strategy for better understanding. The proposal named "__MA-based_strategy_proposal__" can be found on `/casestudy` directory.
+The model aims to implement a trading strategy using two simple moving averages (MA) though generating buy and sell signals in financial markets. The model is evaluated based on the Bitcoin Perpetual market, utilising minute-level data retrieved and trading executed through the Deribit Test API. First of all, I would like to kindly refer to the proposal of the model and strategy for better understanding. The proposal named "__MA-based_strategy_proposal__".
 In addition, it is crucial to note that the model assumes that the trader is already in a long position. Therefore, before initiating the process, the position variable is set to ` position = True `, which indicates that the trader is in a long position. On the other hand, if the trader is in a short position, `position = False`. 
 
 <br>
