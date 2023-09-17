@@ -21,7 +21,7 @@ The formula above indicates the moving average formula, here $t=1$ corresponds t
 The idea of the model is defined as follows the trader should take a long position (buy and hold the financial instrument) where the short-term moving average $MA(S)$ is greater than the long-term moving average $MA(L)$.
 
 ### Installation
-1. Clone the repository: `git clone https://github.com/yourusername/your-repo.git`
+1. Clone the repository: `git clone https://github.com/onurakinsir/Algorithmic_Trading_Project.git`
 2. Install the required dependencies: `requirements.yml` (Basically, Python 3.8 or higher.)
 
 <br>
