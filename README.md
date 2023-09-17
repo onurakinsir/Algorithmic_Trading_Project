@@ -14,8 +14,8 @@ In addition, it is crucial to note that the model assumes that the trader is alr
 <br>
 
 #### Strategy and Trading Logic
-$$\textit{MA}(T) = \frac{1}{T}\sum_{t=1}^{T} P(t)
-$$
+$$\textit{MA}(T) = \frac{1}{T}\sum_{t=1}^{T} P(t)$$
+
 The formula above indicates the moving average formula, here $t=1$ corresponds to the most recent time in the time series of historical stock prices $P(t)$ while $T$ is the length of the $MA$.
 
 The idea of the model is defined as follows the trader should take a long position (buy and hold the financial instrument) where the short-term moving average $MA(S)$ is greater than the long-term moving average $MA(L)$.
