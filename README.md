@@ -1,11 +1,10 @@
-# Case study: Algorithmic trading
+# Algorithmic trading
 ## Financial Data Analytics in Python
 ## Moving Average-based Trading Strategy
 <br>
 
 ### Onur Akin **Sir**
-#### 222221335
-#### m: akin.sir@student.uni-halle.de
+#### m: onurakinsir@gmail.com
 #### w: https://onurakinsir.com
 
 ### Overview
@@ -39,4 +38,4 @@ The idea of the model is defined as follows the trader should take a long positi
     - When the live trading is finished, it will save the databse into your directory and will print `this code executed successfully`. Next, you will see two plots which will indicate the short-term and longer-term moving averages and close prices.
 
 ### Contact
-For question or feedback, you can send me an [email](mailto:akin.sir@student.uni-halle.de) or visit my [personal website](https://onurakinsir.com).
+For question or feedback, you can send me an [email](mailto:onurakinsir@gmail.com) or visit my [personal website](https://onurakinsir.com).
