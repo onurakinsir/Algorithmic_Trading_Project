@@ -22,7 +22,7 @@ The idea of the model is defined as follows the trader should take a long positi
 
 ### Installation
 1. Clone the repository: `git clone https://github.com/onurakinsir/Algorithmic_Trading_Project.git`
-2. Install the required dependencies: `requirements.yml` (Basically, Python 3.8 or higher.)
+2. Install the required dependencies (Basically, Python 3.8 or higher).
 
 <br>
 
@@ -35,7 +35,7 @@ The idea of the model is defined as follows the trader should take a long positi
     - There is no __need to__ change or reassign the length of MAs. This is because, the algorithm calculates various combinations of lengths to determine the effective lengths for our MAs. The algorithm then arranges the list of length combinations in descending order based on the edge strategy which represents the difference between strategy returns and log returns. Finally, it selects the optimal combination from the sorted list and proceeds with further analysis using those specific length combinations. Please see the proposal paper, p.2.
     - Buying and selling amount are fixed to 10 (10 amount of the financial instrument)  
     - The model will be executed for 22500 minutes (6 hours 15 minutes), feel free to change the duration by changing the `duration` variable.
-    - When the live trading is finished, it will save the databse into your directory and will print `this code executed successfully`. Next, you will see two plots which will indicate the short-term and longer-term moving averages and close prices.
+    - When the live trading is finished, it will save the database into your directory and will print `this code executed successfully`. Next, you will see two plots which will indicate the short-term and longer-term moving averages and close prices.
 
 ### Contact
 For question or feedback, you can send me an [email](mailto:onurakinsir@gmail.com) or visit my [personal website](https://onurakinsir.com).
